@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <script src="./assets/js/foundation.js" defer></script>
     <script src="./assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
@@ -19,26 +20,30 @@
 </html>
 <body>
   <nav>
-    <h1 class="nav__logo">stortpit-nt</h1><a class="nav__menu" href="#">menu</a>
+    <h1 class="nav__logo">stortpit-nt</h1>
+    <ul class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="#">Продукция</a></li>
+      <li class="nav__item"><a class="nav__link" href="#">Сертификаты</a></li>
+      <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+    </ul>
   </nav>
   <div class="wrapper">
     <div class="bg-color"></div>
-    <video class="bg-video" autoplay loop><source src='./assets/img/bg_video_2.mp4' type="video/mp4"></video><img class="bg-img" src="./assets/img/bg_img.jpg">
-    <div class="l-buttons">
-      <ul class="c-buttons__list">
-        <li class="c-buttons__item"><a class="c-buttons__link" href="#">
-            <svg class="rectangle" width="180" height="180">
-              <rect class="rectangle__first" width="140" height="140" x="20" y="20" rx="10" ry="10"></rect>
-            </svg></a></li>
-        <li class="c-buttons__item"><a class="c-buttons__link" href="#">
-            <svg class="rectangle" width="180" height="180">
-              <rect class="rectangle__first" width="140" height="140" x="20" y="20" rx="10" ry="10"></rect>
-            </svg></a></li>
-        <li class="c-buttons__item"><a class="c-buttons__link" href="#">
-            <svg class="rectangle" width="180" height="180">
-              <rect class="rectangle__first" width="140" height="140" x="20" y="20" rx="10" ry="10"></rect>
-            </svg></a></li>
-      </ul>
+    <video class="bg-video" autoplay loop><source src='./assets/img/bg_video.mp4' type="video/mp4"></video><img class="bg-img" src="./assets/img/bg_img.jpg">
+    <div class="l-slider">
+      <div class="c-slider__group">
+        <input class="c-slider__radio1" type="radio" name="slider" id="slider_1">
+        <input class="c-slider__radio2" type="radio" name="slider" id="slider_2">
+        <input class="c-slider__radio3" type="radio" name="slider" id="slider_3">
+      </div>
+          <div class="c-slider1 c-slider__content"> 
+            <h4 class="c-slider__descr">description_1</h4>
+            <h2 class="c-slider__header">title_1</h2><a class="c-slider__link" href="#">link_1</a>
+          </div>
+          <div class="c-slider2 c-slider__content"> 
+            <h4 class="c-slider__descr">description_2</h4>
+            <h2 class="c-slider__header">title_2</h2><a class="c-slider__link" href="#">link_2</a>
+          </div>
     </div>
   </div>
   <footer></footer>
