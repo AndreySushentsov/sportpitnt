@@ -31,18 +31,19 @@
     <div class="bg-color"></div>
     <video class="bg-video" autoplay loop><source src='./assets/img/bg_video.mp4' type="video/mp4"></video><img class="bg-img" src="./assets/img/bg_img.jpg">
     <div class="l-slider">
-      <div class="c-slider__group">
-        <input class="c-slider__radio1" type="radio" name="slider" id="slider_1">
-        <input class="c-slider__radio2" type="radio" name="slider" id="slider_2">
-        <input class="c-slider__radio3" type="radio" name="slider" id="slider_3">
+      <div class="c-slider__group"><span class="c-slider__button" onclick="curentSlide(1)"></span><span class="c-slider__button" onclick="curentSlide(2)"></span><span class="c-slider__button" onclick="curentSlide(3)"></span>
       </div>
-          <div class="c-slider1 c-slider__content"> 
+          <div class="c-slider1 c-slider__content fade">
             <h4 class="c-slider__descr">description_1</h4>
             <h2 class="c-slider__header">title_1</h2><a class="c-slider__link" href="#">link_1</a>
           </div>
-          <div class="c-slider2 c-slider__content"> 
+          <div class="c-slider2 c-slider__content fade">
             <h4 class="c-slider__descr">description_2</h4>
             <h2 class="c-slider__header">title_2</h2><a class="c-slider__link" href="#">link_2</a>
+          </div>
+          <div class="c-slider3 c-slider__content fade">
+            <h4 class="c-slider__descr">description_3</h4>
+            <h2 class="c-slider__header">title_3</h2><a class="c-slider__link" href="#">link_3</a>
           </div>
     </div>
   </div>
