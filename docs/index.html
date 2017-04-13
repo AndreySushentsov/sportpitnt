@@ -17,13 +17,13 @@
   </head>
 </html>
 <body>
-  <nav>
-    <h1 class="nav__logo">stortpit-nt</h1>
+  <nav><a href="index.html">
+      <h1 class="nav__logo">stortpit-nt</h1></a>
     <ul class="nav__list">
-      <li class="nav__item"><a class="nav__link" href="#">Продукция</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">Тренировочные программы</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+      <li class="nav__item"><a class="nav__link" href="about.html">Обо мне</a></li>
+      <li class="nav__item"><a class="nav__link" href="products.html">Продукция</a></li>
+      <li class="nav__item"><a class="nav__link" href="programms.html">Программы тренировок</a></li>
+      <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
     </ul>
     <div class="nav__burger">
       <div class="bar1"></div>
@@ -31,17 +31,17 @@
       <div class="bar3"></div>
     </div>
   </nav>
+  <div class="overlay-nav__container">
+    <ul class="overlay-nav__list">
+      <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Продукция</a></li>
+      <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">О нас</a></li>
+      <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Тренировочные программы</a></li>
+      <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Контакты</a></li>
+    </ul>
+  </div>
   <div class="wrapper">
     <div class="bg-color"></div>
     <video class="bg-video" autoplay loop><source src='./assets/img/bg_video.mp4' type="video/mp4"></video><img class="bg-img" src="./assets/img/bg_img.jpg">
-    <div class="overlay-nav__container">
-      <ul class="overlay-nav__list">
-        <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Продукция</a></li>
-        <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">О нас</a></li>
-        <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Тренировочные программы</a></li>
-        <li class="overlay-nav__item"><a class="overlay-nav__link" href="#">Контакты</a></li>
-      </ul>
-    </div>
     <div class="l-slider">
       <div class="c-slider__group"><span class="c-slider__button" onclick="curentSlide(1)"></span><span class="c-slider__button" onclick="curentSlide(2)"></span><span class="c-slider__button" onclick="curentSlide(3)"></span>
       </div>
