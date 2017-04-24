@@ -1,0 +1,22 @@
+[
+  {
+    "sex": "male",
+    "category": "powrefull",
+    "programm": "programm text"
+  },
+  {
+    "sex": "female",
+    "category": "cardio",
+    "programm": "programm text 2"
+  },
+  {
+    "sex": "female",
+    "category": "fitness",
+    "programm": "programm text 3"
+  },
+  {
+    "sex": "male",
+    "category": "powerfull",
+    "programm": "programm text 4"
+  }
+]
