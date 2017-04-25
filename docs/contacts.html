@@ -46,6 +46,33 @@
         <h2 class="c-header__title">Контакты</h2>
       </div>
     </header>
+    <div class="l-contacts__wrapper">
+      <div class="c-contacts__container">
+        <h2 class="c-contacts__title">Обратная связь</h2>
+        <p class="c-contacts__descr">Вопросы и предложения можно отправить через форму обратной связи ниже:</p>
+        <form class="c-form">
+          <div class="c-form__row">
+            <div class="c-form__field">
+              <input class="c-form__input" id="name" type="text" required>
+              <label class="c-form__label" for="name">Ваше имя</label>
+            </div>
+            <div class="c-form__field">
+              <input class="c-form__input" id="email" type="email" required>
+              <label class="c-form__label" for="email">Ваш e-mail</label>
+            </div>
+          </div>
+          <div class="c-form__row">
+            <div class="c-form__textarea">
+              <textarea class="c-form__input" id="message" required></textarea>
+              <label class="c-form__label" for="message">Ваше сообение</label>
+            </div>
+          </div>
+          <div class="c-form__field c-form__field_submit"> 
+            <input type="submit" value="Отправить">
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
   <footer>
     <div class="l-contacts__container">
