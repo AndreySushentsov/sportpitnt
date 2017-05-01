@@ -1,22 +1,44 @@
 [
   {
-    "sex": "male",
-    "category": "powrefull",
-    "programm": "programm text"
+    "gender": "Тренировки для мужчин",
+    "id": "male",
+    "category":[
+      {
+        "category_id": "male_cardio",
+        "category_button": "кардио",
+        "programm": "male programm_1"
+      },
+      {
+        "category_id": "male_powrefull",
+        "category_button": "силовая",
+        "programm": "male programm_2"
+      },
+      {
+        "category_id": "male_fitness",
+        "category_button": "аэробная",
+        "programm": "male programm_3"
+      }
+    ]
   },
   {
-    "sex": "female",
-    "category": "cardio",
-    "programm": "programm text 2"
-  },
-  {
-    "sex": "female",
-    "category": "fitness",
-    "programm": "programm text 3"
-  },
-  {
-    "sex": "male",
-    "category": "powerfull",
-    "programm": "programm text 4"
+    "gender": "Тренировки для девушек",
+    "id": "female",
+    "category":[
+      {
+        "category_id": "female_cardio",
+        "category_button": "кардио",
+        "programm": "female programm_1"
+      },
+      {
+        "category_id": "female_powrefull",
+        "category_button": "силовая",
+        "programm": "female programm_2"
+      },
+      {
+        "category_id": "female_fitness",
+        "category_button": "аэробная",
+        "programm": "female programm_3"
+      }
+    ]
   }
 ]

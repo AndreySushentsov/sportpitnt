@@ -22,8 +22,8 @@
       <h1 class="nav__logo">stortpit-nt</h1></a>
     <ul class="nav__list">
       <li class="nav__item"><a class="nav__link" href="about.html">Обо мне</a></li>
-      <li class="nav__item"><a class="nav__link" href="products.html">Продукция</a></li>
       <li class="nav__item"><a class="nav__link" href="programms.html">Программы тренировок</a></li>
+      <li class="nav__item"><a class="nav__link" href="products.html">Спортпит</a></li>
       <li class="nav__item"><a class="nav__link" href="contacts.html">Контакты</a></li>
     </ul>
     <div class="nav__burger">
@@ -35,8 +35,8 @@
   <div class="overlay-nav__container">
     <ul class="overlay-nav__list">
       <li class="overlay-nav__item"><a class="overlay-nav__link" href="about.html">Обо мне</a></li>
-      <li class="overlay-nav__item"><a class="overlay-nav__link" href="products.html">Продукция</a></li>
       <li class="overlay-nav__item"><a class="overlay-nav__link" href="programms.html">Программы тренировок</a></li>
+      <li class="overlay-nav__item"><a class="overlay-nav__link" href="products.html">Спотрпит</a></li>
       <li class="overlay-nav__item"><a class="overlay-nav__link" href="contacts.html">Контакты</a></li>
     </ul>
   </div>
@@ -48,12 +48,41 @@
     </header>
     <div class="l-content__wrapper">
       <div class="l-content__sidebar">
-        <ul class="c-categories__menu">
-          <li><a class="c-categories__item" href="#">Тренировки для мужчин</a></li>
-          <li><a class="c-categories__item" href="#">Тренировки для женщин</a></li>
-        </ul>
+        <div class="c-categories__menu"><a class="c-categories__item" href="#" id="male">Тренировки для мужчин</a><a class="c-categories__item" href="#" id="female">Тренировки для девушек</a>
+        </div>
       </div>
-      <div class="l-content__content"></div>
+      <div class="l-content__content">
+        <div class="male c-programms__category-container">
+          <h2 class="c-programms__category-title">Тренировки для мужчин</h2>
+          <div class="c-programms__category-menu">
+            <ul class="c-programms__category-list">
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="male_cardio">кардио</a></li>
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="male_powrefull">силовая</a></li>
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="male_fitness">аэробная</a></li>
+            </ul>
+          </div>
+          <div class="c-programms__category-content">
+            <div class="male_cardio c-programms__programms">male programm_1</div>
+            <div class="male_powrefull c-programms__programms">male programm_2</div>
+            <div class="male_fitness c-programms__programms">male programm_3</div>
+          </div>
+        </div>
+        <div class="female c-programms__category-container">
+          <h2 class="c-programms__category-title">Тренировки для девушек</h2>
+          <div class="c-programms__category-menu">
+            <ul class="c-programms__category-list">
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="female_cardio">кардио</a></li>
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="female_powrefull">силовая</a></li>
+              <li class="c-programms__category-item"><a class="c-programms__category-anchor" herf="#" id="female_fitness">аэробная</a></li>
+            </ul>
+          </div>
+          <div class="c-programms__category-content">
+            <div class="female_cardio c-programms__programms">female programm_1</div>
+            <div class="female_powrefull c-programms__programms">female programm_2</div>
+            <div class="female_fitness c-programms__programms">female programm_3</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <footer>
